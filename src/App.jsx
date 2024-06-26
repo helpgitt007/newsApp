@@ -1,18 +1,8 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import AppLayout from "./Layout";
 
 function App() {
-
-
-  return (
-    <>
-      
-      <h1>Welcome to the land of react.js</h1>
-      
-      
-    </>
-  )
+  return <AppLayout />;
 }
 
-export default App
+export default App;
